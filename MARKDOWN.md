@@ -16,4 +16,4 @@
 
 ### Plot 4
 
-![plot5](figure/plot5.png) 
+![plot4](figure/plot4.png) 
