@@ -20,7 +20,7 @@ for (i in 3:8) {subset[, i] <- as.numeric(levels(subset[,i])[subset[, i]])}
 # making a red filled exploratory histogram
 
 
-#png(file="figure/plot1.png", width=480, height=480)
+#png(file="ExData_Plotting1/figure/plot1.png", width=480, height=480)
 par(mfrow=c(1,1),bg=NA)
 hist(subset$Global_active_power, main="Global Avtive Power", xlab="Global Active Power (kilowatts)", col="red", breaks=18)
 #dev.off()
